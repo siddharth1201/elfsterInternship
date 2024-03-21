@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e380f4975f.js" crossorigin="anonymous"></script>
+    <script src="../scripts/scripts.js"></script>
+    <link rel="stylesheet" href="../style/mediaQueries.css">
+    <link rel="stylesheet" href="../style/indexStyle.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <h1>elfster</h1>
+        </nav>
+        <div class="progress-bar">
+            <div class="progress-bar-completed">
+            </div>
+        </div>
+
+    </header>
+    <main class="main-div">
+        <div class="top-img">
+            <img class="elfster-rating" src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/hero-badge-mobile.png?61ece04c77352081e3f4" alt="">
+            <!-- <img class="car-img"
+                src="https://d5qwdql29d6jm.cloudfront.net/remote/aHR0cHM6Ly9pbWFnZXMuY3RmYXNzZXRzLm5ldC9yYmt6YTZpcXY5ZmgvMWdEMzJWZnJqQlp2dVZmNWY3aFY4Qy9kYTM0ODNkODk3ZDY2OGJmYzg3YjNhNzM3NTQxYTMyYS9saWdodC1iYWNrZ3JvdW5kLWRlc2t0b3AucG5n.7iTd0sIOxTg.png?"> -->
+        </div>
+        
+        <div class="ratings-img">
+            <img src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/hero-badge-desktop.png?813c9946089d36bda632" alt="">
+            <img class="lower-img" src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/hero-badge-desktop-2.png?6f26ba0d4692775a0703" alt="">
+        </div>
+        <div class="form-container">
+            <div class="form-outer-box">
+                <div class="form-inner-box">
+                    <div class="form-top-div">
+                        <h3>Start your Secret Santa</h3>
+                    </div>
+                    <div class="form-middle-div">
+                        <p>Organize your Elfster exchange lickety-split. You'll be done in less than two minutes. Then
+                            get ready to exchange gifts! Already did this last year? Use your previous exchanges.</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="from-details-div">
+                            <div class="form-name-heading">
+                                <h4>Enter Names</h4>
+                            </div>
+                            <div class="form-your-name">
+                                <p>Your Name</p>
+                                <p class="name-alert"> Please enter your name </p>
+                                <input id="name" class="input-type-text" type="text" placeholder="Enter Name">
+                            </div>
+                            <div class="form-organizing-bullets">
+                                <p><input type="radio" name="organise-info"><label>I'm organizing and
+                                        participating</label></p>
+                                <p><input type="radio" name="organise-info"><label>I'm just organizing</label></p>
+
+                            </div>
+                            <div class="form-friends-input">
+                                <p>Add Your Friends</p>
+
+                                <input class="input-type-text" type="text" placeholder="Enter Name 2">
+                                <input class="input-type-text" type="text" placeholder="Enter Name 3">
+                                <input class="input-type-text" type="text" placeholder="Enter Name 4">
+                            </div>
+                            <div class="button-container">
+                                <button onclick="formSubmit()">get the party started</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+    
+    <footer>
+        <div class="green-box-top-container">
+            <div class="green-box-top">
+                <div class="green-box-inside">
+                    <div class="green-box-views ">
+                        <img src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/handshake-heart.png?562d268950c488483ce5"
+                            alt="">
+                        <p>Trusted by 33 million people</p>
+                    </div>
+                    <div class="green-box-stars">
+                        <img src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/landing/stars-group.png?e6a7c111a75eb388921e"
+                            alt="">
+                        <p>4.9 stars 234k rating</p>
+
+                    </div>
+                    <div class="green-box-trophy">
+                        <img src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/trophy.png?c40d5efc6fefa650d74c"
+                            alt="">
+                        <p>#1 Secret Santa Generator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="green-box-side-container">
+            <div class="green-box-side">
+                <div class="mid-footer-1">
+                    <h2>elfster</h2>
+                </div>
+                <div class="mid-footer-2">
+                    <p>About</p>
+                    <p>Advertise with Us</p>
+                    <p>Help</p>
+                    <p>Tell a friend</p>
+                </div>
+                <div class="mid-footer-3">
+                    <div class="mid-footer-3-1 footer-card">
+                        <p>Follow on Social</p>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="mid-footer-3-2 footer-card">
+                        <div class="inside-mid-footer-1">
+                            <p>Download the App</p>
+                        </div>
+                        <div class="inside-mid-footer-2">
+                            <img src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/elfster-ios-app-store-button.png?34fae478a56f36402a42"
+                                alt="">
+                            <img src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/elfster-android-app-play-store-button.png?7ae26f27a58fb94b93dd"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="mid-footer-3-2 footer-card">
+                        <div class="card-3-1">
+                            <p>Sign up for Gifts, Giveaways & Good News!</p>
+                        </div>
+                        <div class="card-3-2">
+                            <input class="card-input no-border" placeholder="Enter Email" type="text">
+                            <span class="card-input-button no-border">
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-outer-box">
+            <div class="footer-box-1">
+                <p>©2024 Elfster,Inc.</p>
+            </div>
+            <div class="footer-box-2">
+                <p>Privacy Policy | CA Privacy Rights | Terms Of Service</p>
+            </div>
+            <div class="footer-box-3">
+                <p>USA</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
